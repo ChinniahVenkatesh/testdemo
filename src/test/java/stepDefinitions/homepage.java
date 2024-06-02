@@ -70,7 +70,7 @@ public class homepage {
 	public void enter_the_product_name(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 		this.di.driver.findElement(By.xpath(p.getProperty("searchbox"))).sendKeys(string);
-		//Assert.assertEquals(true,false);
+		Assert.assertEquals(true,false);
 		
 	}
 
