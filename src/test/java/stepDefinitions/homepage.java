@@ -71,6 +71,7 @@ public class homepage {
 	    // Write code here that turns the phrase above into concrete actions
 		this.di.driver.findElement(By.xpath(p.getProperty("searchbox"))).sendKeys(string);
 		Assert.assertEquals(true,false);
+		System.out.println("test");
 		
 	}
 
